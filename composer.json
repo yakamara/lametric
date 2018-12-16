@@ -1,0 +1,33 @@
+{
+    "name": "yakamara/lametric",
+    "description": "Library for creating GIF output for https://lametric.com",
+    "keywords": ["lametric", "gif"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gregor Harlan",
+            "email": "gharlan@web.de"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "LaMetric\\": "src/"
+        }
+    },
+
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-imagick": "*"
+    },
+
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    }
+}
